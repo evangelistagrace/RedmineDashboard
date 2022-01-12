@@ -2,7 +2,7 @@ doctype html
 head
   meta(charset='utf-8')
   meta(name='viewport' content='width=device-width')
-  title Redmine Dashboard
+  title #{title}
   // bootstrap
   link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css')
   // fontawesome
@@ -60,7 +60,7 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light
     .dropdown
       a.nav-link(href='#')
         i.fas.fa-cog
-        |                     Settings
+        |  Settings
   // end of sidebar
   .boards.col-md-10
     // board: to-do
