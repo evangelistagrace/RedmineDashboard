@@ -1,0 +1,81 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  color: #283044;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #283044;
+}
+
+.boards {
+  position: relative;
+  height: 94vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 2em;
+}
+
+.board {
+  height: fit-content;
+  margin: 10px;
+  background: #fcfbfb;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.board .title {
+  text-align: center;
+  background: #8B786D;
+  color: white;
+  padding: 5px 2px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.board .body {
+  display: flex;
+  justify-content: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 80vh;
+  padding: 0.5rem;
+}
+.board .body ul {
+  margin-left: 0;
+  padding-left: 0 !important;
+}
+.board .body ul li {
+  list-style: none;
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.sidebar {
+  height: 94vh;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #78A1BB;
+}
+
+.nav-link {
+  color: #78A1BB;
+}
+.nav-link.dropdown-toggle {
+  display: inline !important;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.sidebar, .navbar {
+  background-color: #eaeaea !important;
+}
+
+a.nav-link:hover {
+  color: #456e88;
+}
+
+/*# sourceMappingURL=main.css.map */
