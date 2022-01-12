@@ -101,7 +101,7 @@ function displayIssues(issues) {
             case 'BE':
                 flair_color = 'success'
                 switch (issue.status.name) {
-                    //for future-proof, loop through status names from file with list of statuses instead
+                    // FIXME: for future-proof, loop through status names from file with list of statuses instead
                     case 'Request List':
                     case 'Pending TRC/CRC':
                     case 'TRC/CRC Approved':
