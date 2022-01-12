@@ -9,4 +9,11 @@
 Redmine Dashboard is a project to display Redmine issues in a kanban-style board. It uses the Redmine REST API to get data. Redmine Dashboard is a work-in-progress, it aims to feature issues in an agile manner and make issue progress more transparent among team members by featuring individual and group reports.
 
 ## Development
-``npm run scss`` and ``npm run dev``
+
+Ensure npm, node, express and scss are installed. In this projetc, nodemon is also installed to re-run the server-side code  when there are changes made.
+
+1. ``npm i``
+2. ``npm run scss``
+3. ``npm run dev``
+
+To enable live preview during development, install Ritwick Dey's Live Server browser and VS Code extension. By default, Express apps run on port 3000. When live preview is enabled, ensure that the live server address (e.g. localhost:5000) is set to point to the actual server's address (eg. localhost:3000).
