@@ -14,6 +14,7 @@ init()
 function init() {
     let all_issues = [],
         trackers = [
+            //TODO: add task, technical document
             {
                 name: 'Pre-BE',
                 id: 22
